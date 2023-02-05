@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+        
+        th {
+            background-color: rgb(159, 74, 167);
+            Color: white;
+        }
+        
+        th,
+        td {
+            width: 150px;
+            text-align: center;
+            border: 1px solid black;
+            padding: 5px
+        }
+        
+        .PatientTable {
+            border-right: hidden;
+        }
+        
+        .gfg {
+            border-collapse: separate;
+            border-spacing: 0 15px;
+        }
+        
+        h1 {
+            color: rgb(0, 128, 11);
+        }
+        
+        button {
+            border: 1px solid #3498db;
+            background-color: rgb(0, 0, 0);
+            color: white;
+            height: 40px;
+            width: 120px;
+            border-radius: 5px;
+            left: 0;
+            margin: 0px;
+        }
+    </style>
+</head>
+
+<body background="images/background.jpg">
+    <center>
+        <div class="box">
+            <h1>Requested Appointements</h1>
+
+            <table>
+                <tr>
+                    <th>Patient ID</th>
+                    <th>Name</th>
+                    <th>Patient Category</th>
+                    <th>Accept Request</th>
+                </tr>
+            </table>
+            <table class="gfg">
+                <tr>
+                    <td class="PatientTable">10001</td>
+                    <td>vaniza</td>
+                    <td>M</td>
+                    <td><label>
+                    <input type="checkbox" name="Accept Request"> Accept
+                  </label><br></td>
+                </tr>
+                <tr>
+                    <td class="PatientTable">10002</td>
+                    <td>misbah</td>
+                    <td>F</td>
+                    <td><label>
+                    <input type="checkbox" name="Accept Request"> Accept
+                  </label><br></td>
+                </tr>
+                <tr>
+                    <td class="PatientTable">10003</td>
+                    <td>Rimsha</td>
+                    <td>M</td>
+                    <td><label>
+                    <input type="checkbox" name="Accept Request"> Accept
+                  </label><br></td>
+                </tr>
+            </table>
+            <a href="doctor_profile.html">
+                <button name="done" style="float: right: inherit;;margin:28px -44% 0 0;">Sumbit</button>
+            </a>
+        </div>
+
+
+
+    </center>
+</body>
+
+</html>
